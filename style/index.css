@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .container{
     width: 100%;
@@ -10,33 +11,119 @@
     
  
 }
-.container .nav ul{
-    display: inline-flex;
-    margin: 20px;
+.container .navbar{
+    width: 80%;
+    margin: auto;
 }
-.container .nav ul li{
+.container .navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+}
+.container .navbar ul{
+    list-style: none;
+}
+.container .navbar ul .logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container .navbar ul .logo-box #logo{
+    font-size: 60px;
+    color: #fd961a;
+}
+.container .navbar ul .logo-box  p{
+    font-size: 40px;color: #fff;
+}
+.container .navbar ul .listes{
+    display: flex;
+    color: #ffffff;
+}
+.container .navbar ul .listes li{
+    margin: 0px 10px;
+}
+.container .navbar ul .listes li .live-bit{
+    color: #fd961a;
+}
+.container .navbar ul .login-btns button{
+    outline: none;
+    border: 1px solid #fd961a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    background-color: transparent;
+
+}
+.container .navbar ul .login-btns .login{
+    color: #fd961a;
+    font-size: 16px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.container .navbar ul .login-btns .login a{
+    text-decoration: none;
+    color: #fd961a;
+}
+.container .navbar ul .login-btns .login:hover{
+    color: #fff;
+    background-color: #fd961a;
+}
+.container .navbar ul .login-btns .login:hover a{
+    color: #fff;
+}
+.container .navbar ul .login-btns .rigsiter{
+    background-color: #fd961a;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.container .navbar ul .login-btns .rigsiter a{
+    text-decoration: none;
+    color: #ffff;
+}
+.container .navbar ul .login-btns .rigsiter:hover{
+    box-shadow: 2px 2px 4px #fd961a;
+}
+
+
+
+
+.container .menu ul{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #111111;
+    padding: 20px 0px;
+}
+.container .menu ul li{
     list-style: none;
     margin: 0px 20px;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
-    color: #FABB04;
+    color: #ffff;
+    text-transform: uppercase;
     cursor: pointer;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
 }
-.container .nav ul li:hover{
-    color: #F78C51;
+.container .menu ul li:hover{
+    color: #fd961a;
 }
-.container .nav ul li #logo{
+.container .menu ul li #logo{
     font-size: 50px;
     color: #ffff;
 }
 .active{
-    color:#F78C51 !important;
+    color:#fd961a !important;
 }
 
-.Sign-up{
+/* .Sign-up{
     position: absolute;
     right: 50px;
     text-decoration: none;
@@ -50,4 +137,4 @@
 .Sign-up span{
     display: block;
     padding: 8px 22px;
-}
+} */
