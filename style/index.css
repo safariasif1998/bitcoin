@@ -184,3 +184,30 @@
     background-color: #fd961a;
     color: #ffffff;
 }
+.walled{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    color: #fff;
+    background-color: #1d1d1d;
+}
+.b-wallet, .cions-wallet , .buy-wallet{
+    padding: 0px 30px;
+    display: flex;
+}
+.b-wallet .icon , .cions-wallet .icon, .buy-wallet .icon{
+    font-size: 60px;
+    color: #fd961a;
+    margin-right: 20px;
+}
+
+.b-wallet .texts h4, .cions-wallet h4, .buy-wallet h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.b-wallet .texts p, .cions-wallet .texts p , .buy-wallet .texts p{
+    margin-left: 5px;
+    font-size: 16px;
+}
