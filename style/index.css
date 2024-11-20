@@ -301,3 +301,89 @@
     background-color: transparent;
     border: 1px solid #fd961a;
 }
+
+/* Package */
+
+.package{
+    background-color: #1d1d22;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+.package h2{
+    color: #fff;
+    font-size: 50px;
+}
+.package h2 span{
+    color: #fd961a;
+}
+.package p.desc{
+    font-size: 20px;
+    margin: 10px 0px 40px 0 !important;
+}
+
+.package .buttons{
+   margin: 0px;
+   padding: 0;
+   border: 1px solid #fff;
+   width: fit-content;
+   margin: auto;
+   padding: 10px 0px;
+}
+.package .buttons a{
+    text-decoration: none;
+    color: #fd961a;
+    padding: 10px 40px;   
+}
+.package .buttons .buy{
+    background-color: #fd961a;
+    color: #fff;
+}
+.carts{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 14px;
+    margin: 40px auto;
+}
+.carts .item{
+    background-color: #1d1d1d;
+    padding: 50px 20px;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.carts .item:hover{
+    box-shadow: 1px 1px 1px #bfb5b5;
+}
+.carts .item p.get{
+  font-size: 23px;
+  font-weight: bold;
+}
+.carts .item p.for{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.carts .item h4.price{
+    font-size: 30px;
+    margin: 40px 0px;
+
+}
+.carts .item button.order-now{
+    padding: 12px 40px;
+    outline: none;
+    background-color: #fd961a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.carts .item button.order-now:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fd961a;
+}
