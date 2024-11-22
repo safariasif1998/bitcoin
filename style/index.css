@@ -422,3 +422,100 @@
     border-radius: 0;
     color: #fd961a;
 }
+
+
+/* experts */
+.experts{
+    background-color: #1d1d22;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0px;
+}
+.experts .experts-title{
+    color: #fff;
+    font-size: 50px;
+}
+.experts .experts-title span{
+    color: #fd961a;
+}
+.experts p.experts-desc{
+    font-size: 20px;
+    margin: 10px 0px 40px 0 !important;
+}
+.experts .row{
+    display: flex;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    justify-content: space-around;
+}
+.experts .row .item{
+    background-color: #1d1d1d;
+    border-radius: 1px;
+    width: 400px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+.experts .row .item:hover{
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 2px #bfb5b5;
+}
+.experts .row .item .img-box{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0;
+    padding: 0px;
+    display: inline-block;
+}
+.experts .row .item .img-box img.img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border:0;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.experts .row .item .info{
+    padding: 10px;
+    margin: 0;
+    transition: 0.4s;
+}
+.experts .row .item .info:hover .socila-media {
+ display: block;
+}
+.experts .row .item .info h4.name{
+    font-size:20px;
+    margin: 7px 0px;
+    
+}
+.experts .row .item .info h4.name span{
+    color: #fd961a;
+}
+.experts .row .item .info span.desc{
+    font-size:16px;
+    display: inline-block;
+    color: #bfb5b5;
+}
+.experts .row .item .socila-media{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 50%;
+    margin: 10px auto;
+}
+.experts .row .item .socila-media #icon{
+    transition: 0.5s;
+}
+.experts .row .item .socila-media #icon:hover{
+    cursor: pointer;
+    color: #fd961a;
+}
