@@ -519,3 +519,80 @@
     cursor: pointer;
     color: #fd961a;
 }
+
+/* ex-change */
+.ex-change{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/hero1.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   position: relative;
+}
+
+.ex-change .row{
+    background-color: #1d1d22;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   border-bottom: 3px solid #fd961a;
+   border-left: 3px solid #fd961a;
+   border-bottom-left-radius: 10px;
+}
+.ex-change .row h4{
+    color: #fff;
+    font-size: 50px;
+}
+.ex-change .row h4 span{
+    color: #fd961a;
+}
+.ex-change .row .desc{
+    color: #fff;
+    font-size: 20px;
+}
+.ex-change .row .form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    overflow: hidden;
+}
+.ex-change .row .form .input , .output{
+    border: 1px solid #bfb5b5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #fd961a;
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+.ex-change .row .form .input #bitcoin, .output #bitcoin{
+    font-size: 30px;
+    padding: 0px 10px;
+    color: #fff;
+}
+.ex-change .row .form .input input[type="text"],  .output input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    overflow: hidden;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0;
+   
+}
