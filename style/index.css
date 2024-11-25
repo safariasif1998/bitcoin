@@ -750,3 +750,60 @@
     background-color: #fff;
     color: #fd961a;
  }
+
+ /* footer */
+.footer{
+    background-color: #1d1d1d;
+}
+.footer .footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-around;
+    border-top: 3px solid #fd961a;
+}
+.footer .footer-container div{
+    width: 33.3%;
+    padding: 5px 30px !important;
+}
+.footer .footer-container div h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.footer .footer-container div p{
+    color: #fff;
+    font-size: 16px;
+    text-align: start;
+    margin-top: 5px;
+}
+.footer .footer-container div.socail-medai-icons{
+    color: #fff;
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0;
+    justify-content: space-between;
+}
+.footer .footer-container div.socail-medai-icons #icon{
+    display: inline-block;
+    font-size: 24px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.footer .footer-container div.socail-medai-icons #icon:hover{
+    color: #fd961a;
+}
+/* Copyright */
+.Copyright{
+    background-color: #fd961a;
+    padding: 20px 0px;
+    text-align: center;
+}
+.Copyright h6{
+    color: #fff;
+    font-size: 16px;
+}
